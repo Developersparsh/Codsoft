@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+section{
+    min-height: 100vh;
+    background-image: url("https://wallpapers.com/images/hd/plain-violet-vintage-floral-pattern-59cu81pdwsqtj3wp.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+#page>img{
+    position: absolute;
+    right: 10%;
+    top: 65%;
+    transform: translateY(-50%);
+    max-width: 30%;
+    max-height: 47%;
+    width: 50%;
+
+
+}
+#page>#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px  30px;
+
+
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+    
+}
+#center_nav{
+    display: flex;
+    gap: 20px;
+
+}
+#center_nav>a{
+    text-decoration: none;
+    color: rgb(228, 13, 13);
+    font-weight: 500;
+    
+}
+
+
+
+#text{
+    position: relative;
+    top: 40%;
+    left: 18%;
+    height: 50%;
+    width: 35%;
+}
+#text>h1{
+    font-size: 60px;
+    line-height: 1;
+    color:skyblue
+}
+#text>h4{
+    margin-top: 20px;
+    color: blueviolet;
+    font-size: 17px;
+}
+#butttons{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    bottom: 0%;
+    height: 30%;
+    width: 100%;
+    
+
+}
+#buttons>button{
+    padding: 20px 32px;
+    border-radius: 20px;
+    border: none;
+    
+}
+#buttons>#b1{
+    margin-left: 80px;
+    margin-top: 85px;
+    background-color: aquamarine;
+    color:black;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+} 
+#page1>#left{
+    position: relative;
+    left: 15%;
+    top: 55%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 55%;
+   
+}   
+#left>.box{
+    height: 23.3%;
+    width: 100%;
+    border-top: 2px solid rgb(198, 193, 193);
+
+}
+#left>.box>h1{
+    color: white;
+}
+#left>.box>h4{
+    margin-top: 60px;
+    
+
+    color: rgb(198, 193, 193);
+}
+#right>.box{
+    height: 23.3%;
+    width: 100%;
+    background-color: indigo;
+    
+
+}
+#right>.newbox>h1{
+    margin-left: 780px;
+    margin-bottom: 20px;
+    color: white;
+    
+    margin-bottom: px;
+    
+}
+
+#right>.newbox>h4{
+    margin-left: 780px;
+    color: white;
+}
